@@ -1,0 +1,54 @@
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__tittle {
+  font-size: 24px;
+  color: #000099;
+  line-height: 50px;
+  padding: 0 20px;
+}
+
+.header__nav--ul {
+  display: flex;
+}
+.header__nav--list a {
+  text-decoration: none;
+  color: #000099;
+  font-size: 16px;
+  padding-right: 40px;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.main__archive {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.main__archive--ttl {
+  position: relative;
+  width: 50%;
+}
+
+.main__archive--catch-copy {
+  position: absolute;
+  font-weight: 500;
+  font-size: 70px;
+  bottom: 100px;
+  /* top: 400; */
+  /* left: 0; */
+}
+
+.main__archive--img {
+  width: 50%;
+}
+
+.archive__box--blue {
+  margin: -100px 0 0 0;
+  width: 75%;
+  height: 200px;
+  background-color: #000099;
+}
